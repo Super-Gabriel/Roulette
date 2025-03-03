@@ -1,7 +1,10 @@
 public class Main{
     public static void main(String[] holi){
-	String[] obj = {"1","2","3","4","5","6","7","8"};	
-	String[] names = {"Gabriel","Juanpi","Daniel","Antonio"};
+	// objetos a repartir
+	String[] obj = {"obj1","obj2","obj3","obj4","obj5","obj6"};
+	
+	// personas participantes 
+	String[] names = {"part1","part2","part3"};
 	
 	//primer parámetro (número de integrantes)
 	Roulette roulette = new Roulette(names.length,obj,names);
